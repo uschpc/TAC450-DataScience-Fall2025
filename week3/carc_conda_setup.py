@@ -111,7 +111,7 @@ class CARCCondaSetup:
         print("\nStep 2: Initializing conda...")
         try:
             # Initialize conda in bash as per CARC docs
-            init_cmd = "mamba init bash"
+            init_cmd = "conda init bash"
             subprocess.run(init_cmd, shell=True, check=True, executable='/bin/bash')
             
             # Source bashrc to make conda available
@@ -183,7 +183,7 @@ class CARCCondaSetup:
             activate_cmd = f"conda activate {self.env_name}"
             
             # Install ipykernel
-            install_cmd = f"{init_cmd} && {activate_cmd} && mamba install -c conda-forge ipykernel -y"
+            install_cmd = f"{init_cmd} && {activate_cmd} && conda install -c conda-forge ipykernel -y"
             subprocess.run(install_cmd, shell=True, check=True, executable='/bin/bash')
             
             # Install the kernel
