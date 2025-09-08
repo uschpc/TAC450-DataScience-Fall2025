@@ -6,7 +6,7 @@ The material in this repo contains teaching materials related to building neural
 ### Software Environment Setup
 First login to CARC OnDemand: https://ondemand.carc.usc.edu/ and request a 'Discovery Cluster Shell Access' within OpenOnDemand. 
 
-We will use Conda to build software packages. WE have prepared a setup script for installation. 
+We will use Conda to build software packages. We have prepared a setup script for installation. 
 
 First, we need to request an interactive session. 
 
@@ -25,7 +25,9 @@ If the reservation is not available, please use the following command to request
 salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=00:30:00 --account=irahbari_1147
 ```
 
-
+```
+python carc_conda_setup.py
+```
 
 Test PyTorch & line_profiler is property installed: 
 ```
