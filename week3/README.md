@@ -39,6 +39,9 @@ git clone https://github.com/uschpc/TAC450-DataScience-Fall2025
 cd TAC450-DataScience-Fall2025/week3
 ```
 ```
+module load conda
+```
+```
 python carc_conda_setup.py
 ```
 
