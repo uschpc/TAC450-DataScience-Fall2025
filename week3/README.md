@@ -31,6 +31,10 @@ change your working direcotry to your scratch directory:
 cd /scratch1/$(whoami)
 ```
 ```
+mkdir week3
+cd week3
+```
+```
 git clone https://github.com/uschpc/TAC450-DataScience-Fall2025
 cd TAC450-DataScience-Fall2025/week3
 ```
