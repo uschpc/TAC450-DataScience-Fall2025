@@ -69,10 +69,7 @@ If you’re working in a Python notebook, it will be connected to a Python kerne
 Similarly, Jupyter supports kernels for other languages, such as R, Julia, and MATLAB.
 
 The kernel manages the state of the notebook (such as variables, imports, and output), allowing you to run cells independently while maintaining continuity across the notebook. You can select or switch kernels from within the Jupyter interface.
-```
-python -m ipykernel install --user --name torch-env --display-name "torch-env"     #This will link your Conda environment to OpenonDemand Jupyter Notebook Kernel
-exit 
-```
+
 
 
 
