@@ -49,6 +49,7 @@ Note: if after running this python carc_conda_setup.py script, if your terminal 
 bash4-4$
 ```
 Please exit from the interactive session and request another new interactive session to refresh the settings, this way your terminal will look normal (show your compute node e.g. a01-01)
+
 Test PyTorch & line_profiler is property installed: 
 ```
 $ conda activate torch-env
