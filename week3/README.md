@@ -44,7 +44,7 @@ module load conda
 ```
 python carc_conda_setup.py
 ```
-Note: if after running this python carc_conda_setup.py script, your terminal still shows something like 
+Note: if after running this python carc_conda_setup.py script, if your terminal still shows something like 
 ```
 bash4-4$
 ```
