@@ -1,4 +1,4 @@
-# ITP 450 Week4 Convolutional Neural Networks
+# TAC 450 Week4 Convolutional Neural Networks
 
 ### About
 The material in this repo covers how to run deep learning applications in HPC system. You can watch CNN tutorial in this link: https://www.youtube.com/watch?v=bNb2fEVKeEo
