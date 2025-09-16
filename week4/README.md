@@ -61,7 +61,7 @@ Below is the Slurm script:
 #SBATCH --gres=gpu:1             # number of gpus per node
 #SBATCH --time=00:05:00          # total run time limit (HH:MM:SS)
 #SBATCH --account=irahbari_1147  # account name
-#SBATCH --reservation=itp-450-th # reservation for ITP class on Thursday
+#SBATCH --reservation=tac-450-th # reservation for ITP class on Thursday
 
 
 # which gpu node was used
