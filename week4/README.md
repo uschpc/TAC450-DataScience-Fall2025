@@ -91,17 +91,37 @@ $ sbatch job.slurm
 You should find that the code runs in about 20-80 seconds with 1 CPU-core depending on which GPU node was used:
 
 ```
-$ jobinfo 24752610
-Job ID: 24752610
-Cluster: discovery
-User/Group: haoji/haoji
-State: COMPLETED (exit code 0)
-Cores: 1
-CPU Utilized: 00:00:53
-CPU Efficiency: 94.64% of 00:00:56 core-walltime
-Job Wall-clock time: 00:00:56
-Memory Utilized: 1.31 GB
-Memory Efficiency: 16.43% of 8.00 GB
+$ jobinfo 2387422
+Job ID               | 2387422
+Job Name             | mnist
+User                 | haoji
+Account              | irahbari_1147
+Working directory    | /scratch1/haoji/week4/TAC450-DataScience-Fall2025/week4
+Cluster              | discovery
+Partition            | gpu
+State                | COMPLETED
+Exit code            | 0:0
+Nodes                | 1
+Tasks                | 1
+CPUs                 | 1
+Memory               | 8G
+GPUs                 | 1 (a100)
+Nodelist             | b02-01
+Submit time          | 2025-09-17T10:36:04
+Start time           | 2025-09-17T10:36:33
+End time             | 2025-09-17T10:38:04
+Wait time            | 00:00:29
+Reserved walltime    | 00:10:00
+Elapsed walltime     | 00:01:31
+Elapsed CPU walltime | 00:01:31
+Used CPU time        | 00:01:10.099
+CPU efficiency       | 77.03%
+% User (computation) | 94.13%
+% System (I/O)       |  5.87%
+Max memory used      | 23.21G (estimate)
+Memory efficiency    | 290.15%
+Max disk read        | 155.98M (estimate)
+Max disk write       | 66.88M (estimate)
 ```
 
 You can also check `slurm-#######.out` file.
