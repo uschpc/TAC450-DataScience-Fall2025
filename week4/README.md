@@ -91,7 +91,7 @@ $ sbatch job.slurm
 You should find that the code runs in about 20-80 seconds with 1 CPU-core depending on which GPU node was used:
 
 ```
-$ seff 24752610
+$ jobinfo 24752610
 Job ID: 24752610
 Cluster: discovery
 User/Group: haoji/haoji
