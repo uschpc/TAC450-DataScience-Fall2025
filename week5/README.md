@@ -1,9 +1,5 @@
 # ITP week5 
 
-## Convolutional Neural Networks- Transfer Learning & Tensorboard & Gen AI
-
-Tranfer Learning PyTorch Tutorial Link: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
-
 Tensorboard Tutorial Link: https://pytorch.org/tutorials/beginner/introyt/tensorboardyt_tutorial.html
 
 
@@ -11,7 +7,7 @@ Tensorboard Tutorial Link: https://pytorch.org/tutorials/beginner/introyt/tensor
 
 First login to CARC OnDemand: https://ondemand.carc.usc.edu/ and request a 'Discovery Cluster Shell Access' within OpenOnDemand. 
 
-We will use Conda to build software packages. If it is the first time you are using Conda, make sure you follow the guide of how to use Conda with this link: https://www.carc.usc.edu/user-guides/data-science/building-conda-environment
+We will use Conda to build software packages. If it is the first time you are using Conda, make sure you follow the guide of week3. 
 
 We need to request an interactive session:
 ```bash
