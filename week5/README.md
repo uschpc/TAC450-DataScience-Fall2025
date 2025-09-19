@@ -23,7 +23,7 @@ To install Tensorboard:
 
 ```
 mamba activate torch-env
-mamba install matplotlib tensorboard
+mamba install tensorboard
 ```
 
 ## Tensorboard
