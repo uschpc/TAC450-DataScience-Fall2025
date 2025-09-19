@@ -22,8 +22,8 @@ salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 
 To install Tensorboard: 
 
 ```
-mamba activate torch-env
-mamba install tensorboard
+conda activate torch-env
+conda install tensorboard
 ```
 
 ## Tensorboard
