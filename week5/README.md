@@ -10,6 +10,7 @@ First login to CARC OnDemand: https://ondemand.carc.usc.edu/ and request a 'Disc
 We will use Conda to build software packages. If it is the first time you are using Conda, make sure you follow the guide of week3. 
 
 We need to request an interactive session:
+
 If the reservation is on Tuesday:
 ```bash
 salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=01:00:00 --account=irahbari_1147 --reservation=tac450-tu
