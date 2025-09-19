@@ -32,6 +32,8 @@ conda activate torch-env
 conda install tensorboard
 ```
 
+Launch the Jupyter Notebook using OnDemand JupyterLab and run the different code blocks within the jupyter notebook. 
+
 ## Tensorboard
 
 TensorBoard is a powerful visualization tool. It provides developers and researchers with insights into their machine learning models by allowing them to visualize metrics, model graphs, and other key aspects of their workflows. Whether you’re debugging a model, tuning hyperparameters, or simply seeking a better understanding of your training process, TensorBoard offers a suite of features to facilitate these tasks.
