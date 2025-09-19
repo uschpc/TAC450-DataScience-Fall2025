@@ -1,4 +1,4 @@
-# ITP week5 
+# TAC week5 
 
 Tensorboard Tutorial Link: https://pytorch.org/tutorials/beginner/introyt/tensorboardyt_tutorial.html
 
