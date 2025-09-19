@@ -32,7 +32,7 @@ conda activate torch-env
 conda install tensorboard
 ```
 
-# Launch the Jupyter Notebook using OnDemand JupyterLab and run the different code blocks within the jupyter notebook. 
+Launch the Jupyter Notebook using OnDemand JupyterLab and run the different code blocks within the jupyter notebook. 
 
 
 ## Tensorboard
