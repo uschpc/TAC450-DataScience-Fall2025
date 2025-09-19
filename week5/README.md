@@ -42,10 +42,19 @@ Some key features of Tensorboard include:
 
 Launch ‘Terminal’ Apps in OpenOnDemand :
 
-Within the Terminal Apps, Change your working directory to week 5: 
+Within the Terminal Apps, change your working direcotry to your scratch directory:
 ```
-cd /scratch1/$(whoami)/ITP450-DataScience-Fall2024/week5
+cd /scratch1/$(whoami)
 ```
+```
+mkdir week5
+cd week5
+```
+```
+git clone https://github.com/uschpc/TAC450-DataScience-Fall2025
+cd TAC450-DataScience-Fall2025/week5
+```
+
 Activate your Conda environment: 
 ```
 conda activate torch-env
