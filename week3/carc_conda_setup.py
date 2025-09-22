@@ -158,7 +158,7 @@ class CARCCondaSetup:
     def install_additional_packages(self):
         """Install additional data science packages."""
         print(f"\nStep 5: Installing additional packages in environment '{self.env_name}'...")
-        packages = ["numpy", "pandas", "scikit-learn", "matplotlib", "line_profiler"]
+        packages = ["numpy", "pandas", "scikit-learn", "matplotlib", "line_profiler","tensorboard"]
         
         try:
             init_cmd = "eval \"$(conda shell.bash hook)\""
