@@ -75,11 +75,9 @@ Within the Terminal Apps, change your working direcotry to your scratch director
 cd /scratch1/$(whoami)
 ```
 ```
-cd week5
+cd week5/TAC450-DataScience-Fall2025/week5
 ```
-```
-cd TAC450-DataScience-Fall2025/week5
-```
+
 
 Activate your Conda environment: 
 ```
