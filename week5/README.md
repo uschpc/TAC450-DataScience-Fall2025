@@ -32,6 +32,19 @@ conda activate torch-env
 conda install tensorboard
 ```
 
+Change your working direcotry to your scratch directory and clone the repo:
+```
+cd /scratch1/$(whoami)
+```
+```
+mkdir week5
+cd week5
+```
+```
+git clone https://github.com/uschpc/TAC450-DataScience-Fall2025
+cd TAC450-DataScience-Fall2025/week5
+```
+
 After the installation, please exit from the compute node. 
 ```
 exit
