@@ -95,7 +95,8 @@ First, inspect the script ([see script](mnist_classify.py)) by running these com
 
 ```bash
 $ cd /scratch1/$(whoami)
-$ rm -rf ITP450-DataScience-Fall2024
+$ mkdir week9
+$ cd week9
 $ git clone https://github.com/uschpc/ITP450-DataScience-Fall2024.git
 $ cd /scratch1/$(whoami)/ITP450-DataScience-Fall2024/week9
 $ cat simple_ddp.py
