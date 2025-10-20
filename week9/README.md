@@ -98,7 +98,7 @@ $ cd /scratch1/$(whoami)
 $ mkdir week9
 $ cd week9
 $ git clone https://github.com/uschpc/TAC450-DataScience-Fall2025.git
-$ cd /scratch1/$(whoami)/TAC450-DataScience-Fall2025/week9
+$ cd /scratch1/$(whoami)/week9/TAC450-DataScience-Fall2025/week9
 $ cat simple_ddp.py
 ```
 
