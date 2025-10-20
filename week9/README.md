@@ -45,6 +45,7 @@ You can get world_size and rank from slurm job file and slurm environment variab
 ```
 world_size    = int(os.environ["WORLD_SIZE"])
 rank          = int(os.environ["SLURM_PROCID"])
+gpus_per_node = int(os.environ["SLURM_GPUS_ON_NODE"])
 ```
 
 Step 2:
