@@ -139,9 +139,9 @@ def main():
 
     ### INSERT CODE BLOCK Here
     # world_size, rank, gpus_per_node
-    world_size=
-    rank=
-    gpus_per_node=
+    world_size = int(os.environ["WORLD_SIZE"])
+    rank = int(os.environ["SLURM_PROCID"])
+    gpus_per_node = int(os.environ["SLURM_GPUS_ON_NODE"])
 
     ###
     
@@ -168,15 +168,15 @@ def main():
    
     ### INSERT CODE BLOCK
     # model, ddp_model, optimizer
-    model=
-    ddp_model=
-    optimizer=
+    model = Net().to(local_rank)
+    ddp_model = DDP(model, device_ids=[local_rank])
+    optimizer = optim.Adadelta(ddp_model.parameters(), lr=args.lr)
    
     ###
 
     scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
     for epoch in range(1, args.epochs + 1):
-        train(args, model, device, train_loader, optimizer, epoch)
+        train(args, ddp_model, local_rank, train_loader, optimizer, epoch)
         if rank == 0: test(ddp_model, local_rank, test_loader)
         scheduler.step()
 
